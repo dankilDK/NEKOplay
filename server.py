@@ -6,7 +6,7 @@ from discord.ext import commands
 import random, logging, json
 import os
 import data.merge_sort as mergesort
-from proccess.env import TOKEN
+from process.env import TOKEN
 
 logger = logging.getLogger('discord')
 logger.setLevel(logging.INFO)
